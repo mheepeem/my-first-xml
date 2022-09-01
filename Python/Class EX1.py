@@ -12,7 +12,8 @@ class ATM:
     #         print(f"Your withdraw amount is -{money}.")
     #         self.balance -= money
     #         print(f"Your balance now: {self.balance}.")
-
+    
+    # Transaction
     def transaction(self):
         print("1. deposit")
         print("2. withdraw")
@@ -30,10 +31,11 @@ class ATM:
                 break
             else:
                 print("Please try again.")
-
+    # Check Balance
     def check_balance(self):
         print(f"Your balance now: {self.balance}.")
-
+    
+    # Transfer
     def transfer(self):
         while True:
             bank = input(f"Please select bank you want to transfer: ")
